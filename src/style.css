@@ -1,0 +1,37 @@
+body {
+  font-family: "돋움", dotum, Apple SD Gothic Neo, sans-serif;
+  margin: 0;
+}
+
+.main {
+  background-color: #ffef6b;
+}
+
+.nav {
+  margin: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  margin: 23px 0;
+}
+
+.nav img:nth-child(2) {
+  margin: 0;
+}
+
+.start-view {
+  padding: 50px 0 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start-view p {
+  margin: 0;
+  font-size: 33px;
+  font-weight: bold;
+}
